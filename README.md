@@ -29,15 +29,11 @@ python
 Copy
 Edit
 # Model Training
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.model_selection import train_test_split
-
-X_train, X_test, y_train, y_test = train_test_split(X_vectorized, y, test_size=0.2, random_state=42)
-model = MultinomialNB()
-model.fit(X_train, y_train)
+![image alt](https://github.com/Omorusi/Multinomial_Naive_Bayes./blob/main/Screenshot%202025-03-03%20130229.png?raw=true)
+![image alt](https://github.com/Omorusi/Multinomial_Naive_Bayes./blob/main/Screenshot%202025-03-03%20130249.png?raw=true)
 Model Evaluation
 The performance of the Multinomial Naive Bayes model was evaluated using several metrics, including accuracy, precision, recall, and F1-score. The classification report and confusion matrix were generated to assess the model's performance in classifying comments into the emotional categories.
-
+![image alt](https://github.com/Omorusi/Multinomial_Naive_Bayes./blob/main/Screenshot%202025-03-03%20124509.png?raw=true)
 Accuracy: 76%
 Precision, Recall, and F1-Score: Various metrics for each sentiment category.
 python
