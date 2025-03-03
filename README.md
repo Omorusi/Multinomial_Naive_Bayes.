@@ -16,11 +16,10 @@ The dataset used in this project is a CSV file, twitter_training.csv, containing
 The following steps were performed during the preprocessing phase:
 
 Renaming columns: To ensure clear representation of the data, column names were updated.
-![image alt](!https://github.com/Omorusi/Multinomial_Naive_Bayes./blob/main/Screenshot%202025-03-03%20124153.png?raw=true
-)
-Handling missing values: Empty comments were removed from the dataset.
+![image alt](https://github.com/Omorusi/Multinomial_Naive_Bayes./blob/main/Screenshot%202025-03-03%20124153.png?raw=true)
+### Handling missing values: Empty comments were removed from the dataset.
 ![image alt](https://github.com/Omorusi/Multinomial_Naive_Bayes./blob/main/Screenshot%202025-03-03%20124326.png?raw=true)
-Text vectorization: Raw text comments were converted into numerical features using the CountVectorizer and TfidfVectorizer.
+### Text vectorization: Raw text comments were converted into numerical features using the CountVectorizer and TfidfVectorizer.
 ![image alt](https://github.com/Omorusi/Multinomial_Naive_Bayes./blob/main/Screenshot%202025-03-03%20124408.png?raw=true)
 Model Training
 The sentiment analysis model was trained using the Multinomial Naive Bayes classifier, a commonly used model for text classification tasks. The dataset was split into training and testing sets, and the model was trained on the training data. The model was then evaluated on the test data to assess its performance.
