@@ -3,7 +3,8 @@ This project demonstrates the application of the Multinomial Naive Bayes model f
 
  # Overview
 The project focuses on building a sentiment analysis pipeline using Multinomial Naive Bayes to classify Twitter comments based on their emotional content. The dataset contains textual data that is transformed into numerical format through CountVectorizer and TfidfVectorizer, followed by training the model to predict emotional categories like Positive, Negative, Neutral, and Irrelevant.
-
+#  Data Collected
+The data was from github.
  # Technologies Used
 Python: The programming language used for model development.
 Scikit-learn: For machine learning algorithms and utilities like train_test_split, CountVectorizer, and MultinomialNB.
