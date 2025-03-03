@@ -45,7 +45,7 @@ Visualizations
 Sentiment Distribution: A pie chart was generated to visualize the distribution of sentiments in the dataset.
 
 Confusion Matrix: A heatmap of the confusion matrix was created to visualize how well the model is performing in terms of true and predicted sentiment labels.
-
+![image alt](https://github.com/Omorusi/Multinomial_Naive_Bayes./blob/main/Screenshot%202025-03-03%20124452.png?raw=true)
 python
 Copy
 Edit
